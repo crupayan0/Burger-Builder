@@ -15,7 +15,7 @@ const sideDrawer = props => {
 			<Backdrop show={props.open} clicked={props.closed} />
 			<div className={classes.join(' ')}>
 				<Logo />
-				<nav style={{ 'margin-top': '10px' }}>
+				<nav style={{ marginTop: '10px' }}>
 					<NavigationItems />
 				</nav>
 			</div>
